@@ -1,0 +1,42 @@
+.classes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffcc00, #005eff);
+    color: white;
+  }
+  
+  .classes-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .classes-list {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .class {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 48%; /* Adjust the width as needed to fit your design */
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .class h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .class p {
+    font-size: 16px;
+  }
+  
